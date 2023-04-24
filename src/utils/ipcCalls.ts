@@ -44,7 +44,7 @@ export async function deleteDb(filePath: string) {
   } else if (error?.code === 'EPERM') {
     showMessageDialog({
       message: t`Cannot Delete`,
-      detail: t`Close Frappe Books and try manually`,
+      detail: t`Close Nuha Books and try manually`,
     });
   } else if (error) {
     const err = new BaseError(500, error.message);

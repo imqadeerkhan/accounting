@@ -1,11 +1,11 @@
 {
-  "name": "frappe-books",
+  "name": "nuha-books",
   "version": "0.8.0",
-  "description": "Simple book-keeping app for everyone",
+  "description": "Simple book-keeping app for our customers",
   "main": "background.js",
   "author": {
-    "name": "Frappe Technologies Pvt. Ltd.",
-    "email": "hello@frappe.io"
+    "name": "Nuha Technologies Pvt. Ltd.",
+    "email": "aqkhan1247@gmail.com"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -55,7 +55,7 @@
     "autoprefixer": "^9",
     "babel-loader": "^8.2.3",
     "dotenv": "^16.0.0",
-    "electron": "^18.3.7",
+    "electron": "^18.3.15",
     "electron-builder": "^23.0.3",
     "electron-devtools-installer": "^3.2.0",
     "electron-notarize": "^1.1.1",
@@ -95,7 +95,7 @@
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
-  "homepage": "https://frappebooks.com",
+  "homepage": "https://imqadeerkhan.github.io",
   "lint-staged": {
     "*.{js,vue}": "vue-cli-service lint"
   },

@@ -84,7 +84,7 @@
 
     <!-- Report Issue and App Version -->
     <div class="window-no-drag flex flex-col gap-2 py-2 px-4">
-      <button
+      <!-- <button
         class="
           flex
           text-sm text-gray-600
@@ -142,7 +142,7 @@
         <p>
           {{ t`Report Issue` }}
         </p>
-      </button>
+      </button> -->
 
       <p
         v-if="fyo.store.isDevelopment"
@@ -235,7 +235,7 @@ export default {
     routeTo,
     reportIssue,
     openDocumentation() {
-      openLink('https://docs.frappebooks.com/' + docsPathRef.value);
+      openLink('https://docs.nuhabooks.com/' + docsPathRef.value);
     },
     setActiveGroup() {
       const { fullPath } = this.$router.currentRoute.value;

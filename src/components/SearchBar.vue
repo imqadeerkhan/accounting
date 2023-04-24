@@ -238,7 +238,7 @@ export default {
   },
   methods: {
     openDocs() {
-      openLink('https://docs.frappebooks.com/' + docsPathMap.Search);
+      openLink('https://docs.nuhabooks.com/' + docsPathMap.Search);
     },
     getShortcuts() {
       const ifOpen = (cb) => () => this.openModal && cb();

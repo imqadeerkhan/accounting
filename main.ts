@@ -17,7 +17,7 @@ import registerIpcMainMessageListeners from './main/registerIpcMainMessageListen
 import registerProcessListeners from './main/registerProcessListeners';
 
 export class Main {
-  title: string = 'Frappe Books';
+  title: string = 'Nuha Books';
   icon: string;
 
   winURL: string = '';

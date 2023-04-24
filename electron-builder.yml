@@ -1,5 +1,5 @@
-productName: Frappe Books
-appId: io.frappe.books
+productName: Nuha Books
+appId: io.nuha.books
 afterSign: build/notarize.js
 asarUnpack: '**/*.node'
 extraResources:
@@ -19,7 +19,7 @@ mac:
   publish:
     - github
 win:
-  publisherName: Frappe Technologies Pvt. Ltd.
+  publisherName: Nuha Technologies Pvt. Ltd.
   signDlls: true
   icon: build/icon.ico
   publish:
